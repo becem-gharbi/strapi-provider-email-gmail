@@ -1,6 +1,6 @@
 {
-  "name": "strapi-provider-email-gmail",
-  "version": "1.0.0",
+  "name": "strapi-provider-email-gmail-api",
+  "version": "1.0.1",
   "description": "A Strapi plugin for sending email from Gmail",
   "main": "index.js",
   "scripts": {

@@ -6,7 +6,7 @@ A Strapi plugin for sending email from Gmail.
 
 
 ```bash
-npm i strapi-provider-email-gmail
+npm i strapi-provider-email-gmail-api
 ```
 
 ## Environment Variables
@@ -30,7 +30,7 @@ module.exports = ({ env }) => ({
   // // ...
   email: {
     config: {
-      provider: "strapi-provider-email-gmail",
+      provider: "strapi-provider-email-gmail-api",
       providerOptions: {
         clientId: env("GMAIL_CLIENT_ID"),
         clientSecret: env("GMAIL_CLIENT_SECRET"),
