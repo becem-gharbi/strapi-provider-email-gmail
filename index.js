@@ -25,8 +25,6 @@ module.exports = {
           accessToken: accessToken,
         },
       });
-
-      console.log("******* Gmail initialized *******");
     });
 
     return {
