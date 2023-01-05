@@ -1,12 +1,12 @@
 # Strapi Provider Email Gmail
 
-A Strapi plugin for sending email from Gmail.
+A Strapi plugin for sending email from Gmail through oauth
 
 ## Installation
 
 
 ```bash
-npm i strapi-provider-email-gmail-api
+npm i @bg-dev/strapi-provider-email-gmail
 ```
 
 ## Environment Variables
@@ -30,7 +30,7 @@ module.exports = ({ env }) => ({
   // // ...
   email: {
     config: {
-      provider: "strapi-provider-email-gmail-api",
+      provider: "@bg-dev/strapi-provider-email-gmail",
       providerOptions: {
         clientId: env("GMAIL_CLIENT_ID"),
         clientSecret: env("GMAIL_CLIENT_SECRET"),

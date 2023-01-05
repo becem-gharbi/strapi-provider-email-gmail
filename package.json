@@ -1,14 +1,15 @@
 {
-  "name": "strapi-provider-email-gmail-api",
-  "version": "1.0.1",
+  "name": "@bg-dev/strapi-provider-email-gmail",
+  "version": "0.0.0-development",
   "description": "A Strapi plugin for sending email from Gmail",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/becem-gharbi/strapi-provider-email-gmail.git"
+    "url": "https://github.com/becem-gharbi/strapi-provider-email-gmail.git"
   },
   "author": "Becem Gharbi",
   "license": "ISC",
@@ -19,5 +20,27 @@
   "dependencies": {
     "google-auth-library": "^8.7.0",
     "nodemailer": "^6.8.0"
+  },
+  "keywords": [
+    "Strapi",
+    "email",
+    "Gmail"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
