@@ -12,6 +12,8 @@ npm i @bg-dev/strapi-provider-email-gmail
 
 To run this project, you will need to add the following environment variables to your .env file
 
+**For detailed intructions on how to get these secrets, please refer to this [video tutorial](https://www.youtube.com/watch?v=-rcRf7yswfM&ab_channel=yoursTRULY)**
+
 `GMAIL_CLIENT_ID`
 
 `GMAIL_CLIENT_SECRET`
