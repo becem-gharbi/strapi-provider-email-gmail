@@ -1,6 +1,6 @@
 # Strapi Provider Email Gmail
 
-A Strapi plugin for sending email from Gmail through oauth2
+A Strapi plugin for sending email from Gmail through google oauth2
 
 ## Installation
 
