@@ -18,7 +18,7 @@ To run this project, you will need to add the following environment variables to
 
 `GMAIL_CLIENT_SECRET`
 
-`GMAIL_CLIENT_EMAIL`
+`GMAIL_USER_EMAIL`
 
 `GMAIL_REFRESH_TOKEN`
 
@@ -35,12 +35,12 @@ module.exports = ({ env }) => ({
       providerOptions: {
         clientId: env("GMAIL_CLIENT_ID"),
         clientSecret: env("GMAIL_CLIENT_SECRET"),
-        clientEmail: env("GMAIL_CLIENT_EMAIL"),
+        userEmail: env("GMAIL_USER_EMAIL"),
         refreshToken: env("GMAIL_REFRESH_TOKEN"),
       },
       settings: {
-        defaultFrom: env("GMAIL_CLIENT_EMAIL"),
-        defaultReplyTo: env("GMAIL_CLIENT_EMAIL"),
+        defaultFrom: env("GMAIL_USER_EMAIL"),
+        defaultReplyTo: env("GMAIL_USER_EMAIL"),
       },
     },
   },

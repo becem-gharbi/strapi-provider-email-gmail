@@ -12,7 +12,7 @@
     "url": "https://github.com/becem-gharbi/strapi-provider-email-gmail.git"
   },
   "author": "Becem Gharbi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/becem-gharbi/strapi-provider-email-gmail/issues"
   },

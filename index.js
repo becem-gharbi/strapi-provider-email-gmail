@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 const { OAuth2Client } = require("google-auth-library");
 
 module.exports = {
-  init: ({ clientId, clientSecret, refreshToken, clientEmail }) => {
+  init: ({ clientId, clientSecret, refreshToken, userEmail }) => {
     var transport = null;
 
     const oAuth2Client = new OAuth2Client(
@@ -18,7 +18,7 @@ module.exports = {
         service: "gmail",
         auth: {
           type: "OAuth2",
-          user: clientEmail,
+          user: userEmail,
           clientId: clientId,
           clientSecret: clientSecret,
           refreshToken: refreshToken,
